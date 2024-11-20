@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <main>
+        <h4 class="cityDiv" > <i class="fas fa-map-marker-alt"></i> <span class="city">Dushanbe,Tj</span> </h4>
+        
+        <div class="bottomMain">
+            <div class="bottomLeft">
+                <img class="imgWeather" src="" alt="">
+                <h1 class="temperature"></h1>
+                <h2 class="condition"></h2>
+            </div>
+            <div class="bottomRight">
+                <h2 class="week"></h2>
+                <p class="date"></p>
+            </div>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Search the city...">
+            <button class="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <footer>
+            <div class="one">
+                <p class="percent"></p>
+                <span>PRECIPITATION</span>
+
+                
+            </div>
+            <div class="two">
+                <p class="percent"></p>
+                <span>HUMIDITY</span>
+            </div>
+            <div class="three">
+                <p class="percent">34km/h</p>
+                <span>WIND</span>
+            </div>
+        </footer>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
